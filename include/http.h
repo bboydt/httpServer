@@ -18,6 +18,10 @@ extern "C" {
 #define HTTP_URL_QUERY_LEN 64
 #define HTTP_MAX_URL_PROCS 8
 
+#ifndef HTTP_VERBOSE
+# define HTTP_VERBOSE 0
+#endif
+
 // Types
 //
 

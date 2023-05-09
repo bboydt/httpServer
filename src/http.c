@@ -48,7 +48,9 @@ static inline void* listen_proc(void *arg)
 
     // Start listening
     assert(listen(server->sock, SOMAXCONN) != -1);
+#if HTTP_VERBOSE
     printf("Listening for connections...\n");
+#endif
 
     struct sockaddr_in addr;
     int addr_len = sizeof(addr), host_addr_len = sizeof(server->addr);
@@ -68,7 +70,9 @@ static inline void* listen_proc(void *arg)
 
         // Report connection
         assert(getsockname(request.client_sock, (struct sockaddr *)&addr, (socklen_t *)&addr_len) == 0);
+#if HTTP_VERBOSE
         printf("New connection: [%s:%d]\n", inet_ntoa(addr.sin_addr), ntohs(addr.sin_port));
+#endif
 
         int length = read(request.client_sock, buffer, lengthof(buffer) - 1);
         if (length <= 0)
