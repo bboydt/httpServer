@@ -1,10 +1,10 @@
-os: macos
+os: osx
 
 language: c
 
 jobs:
   include:
-    - os: macos
+    - os: osx
       services: docker
       name: "Macos (AARCH64) Build"
       script:
