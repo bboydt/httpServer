@@ -1,12 +1,5 @@
 os: osx
-
 language: c
-
-jobs:
-  include:
-    - os: osx
-      services: docker
-      name: "Macos (AARCH64) Build"
-      script:
-        - >
-          make
+compiler: clang
+script:
+  - make

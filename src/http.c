@@ -13,6 +13,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
+some junk
+
 #define lengthof(x) (sizeof((x)) / sizeof((x)[0]))
 
 void http_init(http_server_t *server, int port)
