@@ -1,7 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
-![Build Status for Windows, Linux, macOS and FreeBSD](https://app.travis-ci.com/bboydt/httpServer.svg?branch=master)
-
 # httpServer
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+![Build Status for macOS](https://app.travis-ci.com/bboydt/httpServer.svg?branch=master)
+
 
 httpServer - a small and simple HTTP server written in C.
 
