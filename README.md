@@ -109,4 +109,4 @@ The current use case for this library does not require encryption, but eventuall
 # Contributions
 
 Feel free to make a pull request. Understand that the maintainer is busy and may take some time to approve pull requests.  
-Follow the style of [http.h](https://github.com/TildeOrange/httpServer/include/http.h) and [http.c](https://github.com/TildeOrange/httpServer/src/http.c).
+Follow the style of [http.h](https://github.com/bboydt/httpServer/include/http.h) and [http.c](https://github.com/bboydt/httpServer/src/http.c).
