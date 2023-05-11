@@ -108,5 +108,5 @@ int main(int argc, const char **argv)
 The current use case for this library does not require encryption, but eventually it would be nice to have.
 # Contributions
 
-Feel free to make a pull request. Understand that the maintainer is busy and may take some time to approve pull requests.  
+Feel free to make a pull request. 
 Follow the style of [http.h](include/http.h) and [http.c](src/http.c).
